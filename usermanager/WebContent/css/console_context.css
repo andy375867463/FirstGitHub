@@ -1,0 +1,163 @@
+/* 
+    Document   : console_context
+    Created on : 2013-7-6, 19:38:33
+    Author     : sun    
+*/
+#main{
+    padding: 15px;
+    height:auto!important;  
+    height:500px;  
+    min-height:500px;
+}
+
+/* 内容框 */
+.box{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.box_1st{
+    margin-top: 0;
+}
+.box .box_title{
+    color: #fff;
+    border-bottom: 1px solid #aaa;
+    background-color: #66b7ee;
+    padding-left: 10px;
+}
+.box .context{
+    padding: 16px;
+}
+/* 数据展示表格 */
+.data_table{
+    border-bottom: 1px solid #7f9db9;
+    border-right: 1px solid #7f9db9;
+}
+.data_table td,.data_table th{
+    text-align: center; 
+    padding: 4px 4px;
+    border-top:1px solid #7f9db9;
+    border-left: 1px solid #7f9db9;
+    color: #333;   
+    
+    height:auto!important;  
+    height:20px;  
+    min-height:20px;
+}
+.data_table thead td,.data_table th{
+    font-weight: bold;
+    color: #02679a;
+    background-color: #cde9fd;
+}
+.data_table tfoot td{
+    text-align: left;
+    padding-left: 8px;
+}
+
+.data_table .ui-input-basic{
+    width: 90%;
+    padding: 3px 4px;
+}
+/* 查询输入表格 */
+.query_table{   
+    border-bottom: 1px solid #7f9db9;
+    border-right: 1px solid #7f9db9;
+}
+.query_table td{
+    text-align: center; 
+    padding: 4px 4px;
+    border-top:1px solid #7f9db9;
+    border-left: 1px solid #7f9db9;
+    font-size: 1.1em;
+}
+.query_table .title_td{
+    background-color: #f0f5fd;
+    font-weight: bold;
+    color: #306ed1;
+}
+.query_table  .input_td{
+    text-align: left;
+}
+.query_table  .input_td input{
+    padding-left: 6px;
+}
+.query_table .cmd_td{
+    text-align: left;    
+}
+.query_table .hint{
+    color: red;
+}
+.query_table .tips{
+    color: #2473a2;
+}
+
+#page_cmds_container{
+    margin-top: 6px;
+}
+#page_cmds_container #order_cmds{
+    float: left;
+    width: 400px;
+}
+#order_cmds .order_count{
+    color: #2473a2;
+}
+#page_cmds_container  #hint_wrapper{
+    height: 20px;
+    padding-top: 3px;
+}
+#page_manager{
+    float: right;
+    width: 340px;
+    
+    text-align: right;
+    
+    color: #666;
+}
+#page_manager a{
+    text-decoration: none;
+    color: #06a;
+}
+#page_manager a:hover{
+    text-decoration: underline;
+}
+#page_manager .a_disable,#page_manager .a_disable:hover{
+    color: #666;
+    text-decoration: none;
+    cursor: default;
+}
+.page_max_show{
+    border:1px solid #06a;
+}
+
+/* 表单输入 */
+.input_list{
+    list-style: none;
+}
+.input_list  li{
+    margin-top: 8px;
+}
+.input_list .li_1st{
+    margin-top: 0;
+}
+.input_list .title{
+    display:inline-block;
+    display:-moz-inline-stack;
+    *zoom:1;
+    *display:inline;
+    width: 100px;
+    text-align: right;
+    color: #333;
+    font-size: 1.2em;
+}
+
+#hint_wrapper{
+    height: 30px;
+}
+#hint{  
+    font-size: 1.1em;
+    color: red;    
+}
+
+
+

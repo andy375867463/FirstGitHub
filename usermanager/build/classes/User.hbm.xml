@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="">
+    <class  name="com.local.db.User" table="user">
+        <id name="id" column="u_id" type="integer">
+            <generator class="native" />
+        </id>
+        <property name="name" column="u_name" />
+        <property name="age"  column="u_age" />
+        <property name="sex"  column="u_sex" />
+        <property name="addr" column="u_addr" />
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,40 @@
+
+
+html,body, span, div, p, td,a,h1,h2,h3,h4,h5,ul,li,img,dd,dl,dt{ margin: 0px;padding: 0px;border: 0px;}
+input{margin: 0px;padding: 0px;}
+iframe{ padding:0;margin:0;border:0;}
+
+body{
+	/* 默认字体 */
+	font-size: 12px;
+        position: relative;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Helvetica", "Arial", "Verdana","sans-serif";
+	line-height:1.5;/* 统一 line-height */
+        padding-bottom: 1px;
+}
+
+/* 清除浮动 */
+.clear{clear:both; height:0px; overflow:hidden;margin:0; padding:0; border:none; display:block;}
+
+/* html 5 corner */
+.h5corner{border-radius:6px;}
+
+/* h* especially for ie6,7 */
+h1{
+	font-size:1.8em;
+}
+h2{
+	font-size:1.5em;
+}
+h3{
+	font-size:1.3em;
+}
+h4{
+	font-size:1.2em;
+}
+h5{
+	font-size:1.1em;
+}
+
+
+

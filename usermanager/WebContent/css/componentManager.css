@@ -1,0 +1,100 @@
+
+
+/* 添加对话框 */
+#add_dialog{
+    font-size: 1.2em;
+    color: #333;
+    padding-left: 5px;
+    padding-bottom: 18px;
+}
+#add_dialog .space{
+    margin-top: 8px;
+}
+#add_dialog .space-1st{
+    margin-top: 0px;
+}
+#add_dialog .space .title{
+    display:inline-block;
+    display:-moz-inline-stack;
+    *zoom:1;
+    *display:inline;
+    width: 80px;
+    text-align: right;
+}
+#add_dialog .img_container{
+    position: relative;  
+    width: 400px;
+}
+#add_dialog .img_container .img_title{
+    float: left;  
+}
+#add_dialog .dialog_cmds{
+    margin-top: 14px;
+    padding-left: 50px;
+}
+#add_dialog  #hint{
+    font-size: 0.9em;
+}
+/* 添加图片区 */
+#add_dialog .img_container .img_wrapper{
+    width:  145px;
+    height: 130px;
+    border: 1px solid #7f9db9;
+    margin-left: 5px; 
+    float: left;  
+}
+#add_dialog .img_container .img_wrapper img{
+    width:  145px;
+    height: 130px;
+    display: block;
+}
+#upload_cmd_wrapper{   
+    width: 110px;
+    height: 130px;
+    float: left;
+    position: relative;
+}
+#upload_cmd{
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    *height: 28px;
+    *overflow: hidden;
+}
+
+#upload_cmd .upload_wrapper{
+    cursor: pointer;
+    overflow:hidden;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;/* 完全透明 */
+
+    position:absolute;
+    top: 0px;left: 0px;
+
+    /* 大小应与 上传文件 按钮相同 */
+    width: 103px;
+    height: 28px;
+}
+#upload_cmd .upload_wrapper .upload_file{
+    /* 大小几乎无限大，父元素设置了overflow:hidden; */
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;/* 完全透明 */
+    
+    cursor: pointer;
+    position:absolute;
+    top:-4px;right:-4px;
+    font-size:800px;
+    width:400px;
+    height:400px;
+}
+
+/* 管理 */
+#manager .context{
+    overflow-x: auto;
+}
+
+
